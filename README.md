@@ -6,4 +6,6 @@ git add .
 git status
 git commit -m "your comments"
 git push
+
+git pull
 ```
