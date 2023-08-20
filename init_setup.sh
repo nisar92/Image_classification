@@ -4,3 +4,4 @@ conda create --prefix ./env python=3.11 -y
 echo [$(date)]: "activate env"
 source activate ./env
 echo [$(date)]: "END"
+
