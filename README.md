@@ -1,6 +1,9 @@
 # Image_classification
 Political Leaders Image Classification
 
+# initial environment setup
+init_setup.sh initial setup
+
 # Git Commands
 
 ```
