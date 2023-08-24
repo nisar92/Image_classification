@@ -4,6 +4,7 @@ Political Leaders Image Classification
 # initial environment setup
 init_setup.sh initial setup
 
+
 # Git Commands
 
 ```
@@ -17,6 +18,8 @@ git pull
 # Shell Command
 ```
 bash init_setup.sh
-
-conda activate ./env
+To activate this environment, use                                                                                              
+conda activate C:\Users\shafi\OneDrive\Documents\GitHub\Image_classification\env                                                                                                                      
+To deactivate an active environment, use
+conda deactivate
 ```
