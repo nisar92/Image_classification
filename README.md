@@ -19,7 +19,10 @@ git pull
 ```
 bash init_setup.sh
 To activate this environment, use                                                                                              
-conda activate C:\Users\shafi\OneDrive\Documents\GitHub\Image_classification\env                                                                                                                      
+conda activate C:\Users\shafi\OneDrive\Documents\GitHub\Image_classification\env
+
+and 
+conda activate ./env
 To deactivate an active environment, use
 conda deactivate
 ```
