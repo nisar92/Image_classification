@@ -26,3 +26,13 @@ conda activate ./env
 To deactivate an active environment, use
 conda deactivate
 ```
+
+# Run python file
+```
+python filename.py
+```
+
+## for installing all the packeges
+```
+pip install -r requirements.txt
+```
