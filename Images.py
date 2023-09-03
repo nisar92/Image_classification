@@ -15,4 +15,4 @@ def setup_browser() -> webdriver.Chrome:
 
     return broswer
 
-    setup_browser()
+setup_browser()
