@@ -36,3 +36,7 @@ python filename.py
 ```
 pip install -r requirements.txt
 ```
+## activate from soure if conda not working
+```
+source activate ./env
+```
