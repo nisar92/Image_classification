@@ -15,7 +15,7 @@ def get_urls(query:str,delay:int)->set:
     search_box=browser.find_element(By.CSS_SELECTOR,'#APjFqb.gLFyf')
     search_box.send_keys(query)
     search_box.submit()
-    time.sleep(5)
+    time.sleep(delay)
     return browser
 
 '''
