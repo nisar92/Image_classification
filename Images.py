@@ -55,7 +55,7 @@ def download_images(query,delay,no_of_images):
                 image_content = requests.get(url).content
                 image_file = io.BytesIO(image_content)
                 image= Image.open(image_file)
-                file_path=os.path.jion(os.path.curdir,query,str(i)+".jpg")
+                file_path=os.path.join(os.path.curdir,query,str(i)+".jpg")
 
                 with open(file_path,'wb') as f:
                     image.save(f,"JPEG")
@@ -65,4 +65,4 @@ def download_images(query,delay,no_of_images):
     except Exception as e:
         return e
 
-download_images('Narendra modi',2,5)
+download_images('Narendra modi',0,15)
