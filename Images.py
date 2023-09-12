@@ -28,7 +28,7 @@ def get_urls(query: str, delay: int) ->set:
     browser.execute_script('window.scrollTo(0, document.body.scrollHeight);')
     thumbnails = browser.find_elements(By.CLASS_NAME, "Q4LuWd")
     for image in thumbnails:
-        if image.get_attribute('src'):
+        if image.get_attribute('src') and 'http' in image.get_attribute('src'):
            images_urls.add(image.get_attribute('src'))
 
     return images_urls
@@ -63,4 +63,4 @@ def download_images(query, delay, no_of_images):
     except Exception as e:
         return e
 
-download_images('modi', 2,100)
+download_images('modi', 2,10)
